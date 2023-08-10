@@ -28,3 +28,6 @@ npm i -D --force
 ```bash
 npm run dev
 ```
+
+Credits to CJ from Coding Garden on helping setup the project
+[CJ Youtube video](https://www.youtube.com/watch?v=cchqeWY0Nak)
