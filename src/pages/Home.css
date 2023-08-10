@@ -1,0 +1,65 @@
+.app_home{
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.app_home_button{
+  bottom:5%;
+  right: 5%;
+  position: fixed;
+}
+.icon_flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.button_start{
+  color: rgb(53, 53, 53);
+  cursor: pointer;
+}
+.button_start:hover{
+  color: rgb(253, 131, 75);
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.button_gotop{
+  color: rgb(53, 53, 53);
+  cursor: pointer;
+}
+.button_gotop:hover{
+  color: rgb(253, 131, 75);
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.bounce:hover{
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+
+@media (max-width: 550px) {
+  .app_home img{
+    width: 90%;
+  }
+  .button_gotop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    border-radius: 20px;
+    bottom:2%;
+    right: 3%;
+    position: fixed;
+    color:rgb(253, 131, 75);
+    background-color: #e0e7ff;
+    border: 3px solid rgb(110, 110, 110);;
+  }
+}

@@ -1,0 +1,17 @@
+body{
+  background: #e0e7ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f0ecda, #e0e7ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f0ecda, #e0e7ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-size: 18px;
+}
+@media (min-width: 1299px){
+  body{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media (max-width: 729px){
+  body{
+    font-size: 16px;
+  }
+}
